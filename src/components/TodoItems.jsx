@@ -4,7 +4,7 @@ import not_tick from '../assets/not_tick.png'
 import delete_icon from '../assets/delete.png'
 
 
-const TodoItems = ({text}) => {
+const TodoItems = ({text, id, isComplete}) => {
   return (
     <div className='flex items-center my-3 gap-2'>
        <div className='flex flex-1 items-center cursor-pointer'>
